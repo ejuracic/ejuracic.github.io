@@ -83,6 +83,20 @@ section h3 {
 }
 
 /* =========================
+   Shipped Game Titles (h4)
+   ========================= */
+section h4 {
+    font-size: 1.35rem;        /* slightly smaller than h3 */
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #ffa94d;            /* soft orange, complements blue & yellow */
+    letter-spacing: 0.5px;
+    padding-left: 0;           /* no border line */
+}
+
+
+/* =========================
    Text
    ========================= */
 p {
