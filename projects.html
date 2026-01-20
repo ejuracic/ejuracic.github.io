@@ -14,6 +14,7 @@
       <a href="index.html">Home</a> |
       <a href="assets/resume.pdf" target="_blank">Resume</a> |
       <a href="https://github.com/ejuracic" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/emanuel-juracic-776135253/" target="_blank">LinkedIn</a>
     </nav>
   </header>
 
@@ -55,9 +56,99 @@
 
     <h3>Item System</h3>
     <p>
-        Designed a reusable item system with limited charges to encourage
-        strategic decision making and prevent overpowered item usage.
+      Designed a reusable item system with limited charges to encourage strategic decision making and prevent overpowered item usage.
     </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Charges</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th>Destroyed on Use</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gun</td>
+          <td>6</td>
+          <td>Harms monsters at a distance, makes a lot of noise</td>
+          <td>Combat</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Noise Maker</td>
+          <td>3</td>
+          <td>Can be placed, makes noise after a timed fuse</td>
+          <td>Environment</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Dash Booster</td>
+          <td>4</td>
+          <td>Allows the player a quick burst of movement</td>
+          <td>Movement</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Battery</td>
+          <td>1</td>
+          <td>Takes an item slot, but lets you charge another item</td>
+          <td>Combat</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Rock</td>
+          <td>1</td>
+          <td>Can be thrown, making noise on-hit or end of flight. Can be used to disable Bear Traps.</td>
+          <td>Environment</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Grenade</td>
+          <td>1</td>
+          <td>Destroys walls or other static obstructions. Throwable and deals damage</td>
+          <td>Combat</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Revivor</td>
+          <td>1</td>
+          <td>Upon taking lethal damage, revives without any shield charge</td>
+          <td>Combat</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Mobile Shield Generator</td>
+          <td>3</td>
+          <td>Portable version of a generator that can restore shield health to player within a level</td>
+          <td>Combat</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Warper</td>
+          <td>3</td>
+          <td>Allows short-range teleportation based on facing direction</td>
+          <td>Movement</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Invisible Suit</td>
+          <td>3</td>
+          <td>Players can briefly go invisible for 5 seconds. Cannot dash, sneak, or use items while invisible</td>
+          <td>Movement</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Grappler</td>
+          <td>4</td>
+          <td>Grappling device to swing the player quickly to a target location</td>
+          <td>Movement</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
 
     <h3>Player Controller</h3>
     <p>
@@ -81,10 +172,8 @@
         <h2>Amino</h2>
 
         <p>
-            This game was developed for the Pirate Software Game Jam 16. The theme was "You Are The Weapon". So within our game,
-            the player controls a character who can defeat and steal enemy attacks to use against others. The player spawns into a level with
-            a set number of enemies. The goal is to defeat all the enemies and gain the chosen reward at the end. This can range from new attacks, stat increases,
-            or gold. When the players has a set amount of gold, they can pay for their freedom. Thus winning the game.
+            This game was developed for the Pirate Software Game Jam 16. The theme was "You Are The Weapon".
+            Amino is a pixel tile turn-based combat game where players take contracts, enter enemy-filled levels, and hunt down foes using a mix of permanent and temporary attacks. Defeating enemies grants temporary abilities, and players can chain different attack patterns for maximum effect.
         </p>
 
         <ul>
@@ -92,6 +181,17 @@
             <li><strong>Tech:</strong> Unity, C#</li>
             <li><strong>Key Systems:</strong> Turn Based System</li>
         </ul>
+
+        <p>
+            <a href="https://docs.google.com/document/d/16flJTJiUceD-J9wgwe9O07zns5mjt2ECHmfcMnk2Tms/edit?usp=sharing" target="_blank">
+                View Game Design Document
+            </a>
+        </p>
+
+        <h3>Turn Based System</h3>
+        <p>
+          Developed a flexible turn-based system coordinating both player actions and enemy AI behaviors. Players can move and chain attacks strategically, while enemies react dynamically based on range and positioning, creating engaging and tactical combat scenarios.
+        </p>
 
         <!-- Embed for playable game -->
         <div>
