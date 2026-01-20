@@ -22,6 +22,13 @@
 
     <section>
     <h2>Lurking Abyss</h2>
+    <p>DreadSpire Studio Team Members:
+        Isaiah Bartlett,
+        Emanuel Juracic,
+        Vincent Marshall,
+        Rhys Mccash,
+        Andrew Babos
+    </p>
 
     <p>
         Our video game is a Horror 2D Roguelike where the player is constantly challenged. Various monsters lurk within the shadows, and once they have their eyes set on the player, survival becomes a matter of escape or die trying. What sets our game apart is how the AI Monsters are built. Their reactions are based on sight and sound. Each monster has a unique way of interacting with the player.
@@ -30,9 +37,17 @@
     </p>
 
     <ul>
-        <li><strong>Role:</strong> Gameplay Programmer</li>
+        <li><strong>Role:</strong> Gameplay Programmer & Designer</li>
         <li><strong>Tech:</strong> Unity, C#</li>
-        <li><strong>Key Systems:</strong> Player, Item System, Enemy AI, Teleportation</li>
+        <li>
+            <strong>Key Systems:</strong>
+            <ul>
+                <li><strong>Player:</strong> Full movement, dodge, sneak, interactions, and item usage</li>
+                <li><strong>Item System:</strong> Limited-charge combat, movement, and environmental items</li>
+                <li><strong>Enemy AI:</strong> Mimic and Scavenger behaviors</li>
+                <li><strong>Teleportation:</strong> WarpTubes and Warper item mechanics</li>
+            </ul>
+        </li>
     </ul>
 
     <!-- Video trailer -->
@@ -56,7 +71,7 @@
 
     <h3>Item System</h3>
     <p>
-      Designed a reusable item system with limited charges to encourage strategic decision making and prevent overpowered item usage.
+      Designed a reusable item system with limited charges to encourage strategic decision making and prevent overpowered item usage, including items for Combat, Movement, and Environment that each provide unique tactical advantages.
     </p>
 
     <table>
@@ -108,7 +123,7 @@
         <tr>
           <td>Grenade</td>
           <td>1</td>
-          <td>Destroys walls or other static obstructions. Throwable and deals damage</td>
+          <td>Throwable and deals damage</td>
           <td>Combat</td>
           <td>Yes</td>
         </tr>
@@ -152,15 +167,13 @@
 
     <h3>Player Controller</h3>
     <p>
-        Implemented the complete player controller, including responsive movement,
-        damage handling, and a Invincible mechanic with invulnerability frames to support
-        skill-based and reactive gameplay.
+      Implemented the full player system, including eight-direction movement, sneaking, dodging, and object interactions. Built a strategic equipment system with limited-charge items, allowing the player to select and use abilities while emphasizing tactical decision-making.
     </p>
 
     <h3>Enemies</h3>
     <ul>
-        <li><strong>Mimic:</strong> Disguises itself as an item and triggers on interaction to damage player then quickly hide to transform again.</li>
-        <li><strong>Scavenger:</strong> A mechanical reflection of the player’s abilities. Depending on player interaction, the Scavenger will respond differently.</li>
+        <li><strong>Mimic:</strong> A monster that disguises itself as any interactable items. It attacks any creature that interacts with it, including the player and Scavenger, and relocates when detected until it is safe to transform again.</li>
+        <li><strong>Scavenger:</strong> A mostly passive monster reflecting the player that collects items it encounters and avoids combat unless provoked. It reacts intelligently to threats, using items or escaping when necessary, and dynamically responds to both the player’s actions and the presence of hunter-type monsters.</li>
     </ul>
 
       <p>
@@ -170,6 +183,14 @@
 
     <section>
         <h2>Amino</h2>
+
+        <p>DreadSpire Studio Team Members:
+            Isaiah Bartlett,
+            Emanuel Juracic,
+            Vincent Marshall,
+            Rhys Mccash,
+            Andrew Babos
+        </p>
 
         <p>
             This game was developed for the Pirate Software Game Jam 16. The theme was "You Are The Weapon".
@@ -192,6 +213,11 @@
         <p>
           Developed a flexible turn-based system coordinating both player actions and enemy AI behaviors. Players can move and chain attacks strategically, while enemies react dynamically based on range and positioning, creating engaging and tactical combat scenarios.
         </p>
+
+            <!-- Title -->
+        <h3>Amino Playable Build</h3>
+        <!-- Brief description -->
+        <p>Play the latest build of Amino directly in your browser!</p>
 
         <!-- Embed for playable game -->
         <div>
